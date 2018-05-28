@@ -6,6 +6,9 @@ import { HomePage } from '../home/home.page';
 import { AboutPage } from '../about/about.page';
 import { ContactPage } from '../contact/contact.page';
 
+import { DetailsPage } from '../details/details.page';
+import { EditPage } from '../edit/edit.page';
+
 const routes: Routes = [
   {
     path: 'tabs',
@@ -15,6 +18,16 @@ const routes: Routes = [
         path: 'home',
         outlet: 'home',
         component: HomePage
+      },
+      {
+        path: 'home/:id',
+        outlet: 'home',
+        component: DetailsPage
+      },
+      {
+        path: 'home/:id/edit',
+        outlet: 'home',
+        component: EditPage
       },
       {
         path: 'about',
