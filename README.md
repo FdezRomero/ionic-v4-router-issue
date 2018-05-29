@@ -17,4 +17,4 @@
 1. In the `Home` tab, reload the page to make sure we have a clean starting point.
 2. Click `Details`. The `DetailsPage` is shown correctly.
 3. Go back. The `HomePage` is shown correctly.
-4. Click `Edit` again. The URL changes but the `EditPage` is not shown.
+4. Click `Details` again. The URL changes but the `DetailsPage` is not shown.
